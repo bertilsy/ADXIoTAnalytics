@@ -1,4 +1,4 @@
-#connect cluster('igniteadxsource.eastus2').database('Occupancy')
+#connect cluster('igniteadxsource.northeurope2').database('Occupancy')
 
 StageIoTRawData
 | sample 10

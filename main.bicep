@@ -1,4 +1,4 @@
-param deploymentLocation string = 'eastus'
+param deploymentLocation string = 'northeurope'
 param adxName string = 'adxclusteriot'
 param adxSKU string = 'Standard_D11_v2'
 param eventHubName string = 'eventhubiot'

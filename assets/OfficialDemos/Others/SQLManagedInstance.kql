@@ -1,4 +1,4 @@
-#connect cluster('adxpm10774.eastus').database(IoTAnalytics)
+#connect cluster('adxpm10774.northeurope').database(IoTAnalytics)
 
 //sqlmi
 evaluate sql_request(

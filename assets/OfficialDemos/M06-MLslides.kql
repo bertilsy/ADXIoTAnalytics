@@ -194,7 +194,7 @@ and ServiceHost == "e7f60c5d-4944-42b3-922a-92e98a8e7dec", "Problem", "Normal")
 // imports numpy (as np) and pandas (as pd) by default, you can import others. ie. sklearn 😁
 // disabled by default, enable manually and restart
 
-#connect cluster('adxpm10774.eastus').database('IoTAnalytics')
+#connect cluster('adxpm10774.northeurope').database('IoTAnalytics')
 
 // udf
 range x from 1 to 360 step 1
@@ -214,7 +214,7 @@ result["fx"] = g * np.sin(df["x"]/n*2*np.pi*f)
 
 // Unsupervised Learning
 
-#connect cluster('igniteadxsource.eastus2').database('Occupancy')
+#connect cluster('igniteadxsource.northeurope2').database('Occupancy')
 
 .show functions 
 
@@ -290,7 +290,7 @@ Thermostats
 | project-away SubEventType
 
 
-#connect cluster('adxpm10774.eastus').database('IoTAnalytics')
+#connect cluster('adxpm10774.northeurope').database('IoTAnalytics')
 
 //must alter cluster callout  policy 
 let script = externaldata(script:string)

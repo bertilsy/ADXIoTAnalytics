@@ -3,7 +3,7 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
       "deploymentLocation": {
-        "value": "eastus"
+        "value": "northeurope"
       },
       "adxName": {
         "value": "adxpm"

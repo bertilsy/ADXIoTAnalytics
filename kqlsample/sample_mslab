@@ -1,4 +1,4 @@
-#connect cluster('adxpm10774.eastus').database('IoTAnalytics')
+#connect cluster('adxpm10774.northeurope').database('IoTAnalytics')
 
 //Data lands in the StageIoTRaw table so lets look at that first
 .show table StageIoTRawData

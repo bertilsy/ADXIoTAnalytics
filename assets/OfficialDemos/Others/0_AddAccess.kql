@@ -2,7 +2,7 @@
 // Grant attendies temporarily access to your cluster
 // If they can't deploy lab in their own subscriptions.
 
-#connect cluster('adxpm10774.eastus').database('IoTAnalytics')
+#connect cluster('adxpm10774.northeurope').database('IoTAnalytics')
 
 .show database IoTAnalytics principals
 

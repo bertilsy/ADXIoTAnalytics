@@ -1,6 +1,6 @@
-// #connect cluster('igniteadxsource.eastus2').database('Occupancy')
+// #connect cluster('igniteadxsource.northeurope2').database('Occupancy')
 
-#connect cluster('adxpm10774.eastus').database('IoTAnalytics')
+#connect cluster('adxpm10774.northeurope').database('IoTAnalytics')
 
 print("😍 ML 🤖")
 

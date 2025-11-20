@@ -208,11 +208,15 @@ function configure_IoT_Central_output() {
 }
 
 # Define required variables
-randomNum=$RANDOM
+# randomNum=$RANDOM
+randomNum=x83477665
 currentDate=$(date)
 tomorrow=$(date +"%Y-%m-%dT00:00:00Z" -d "$currentDate +1 days")
-deploymentName=ADXIoTAnalyticsDeployment$randomNum
-rgName=ADXIoTAnalytics$randomNum
+#deploymentName=ADXIoTAnalyticsDeployment$randomNum
+deploymentName="${randomNum}-explorer-neu-deployment"
+#rgName=ADXIoTAnalytics$randomNum
+rgName="${randomNum}-explorer-neu"
+#rgName="${randomNum}ADXIoTAnalytics"
 principalId=$(az ad signed-in-user show --query id -o tsv)
 
 # Setup array to utilize when assiging devices to departments and patients

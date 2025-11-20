@@ -1,4 +1,4 @@
-#connect cluster('adxpm10774.eastus').database(IoTAnalytics)
+#connect cluster('adxpm10774.northeurope').database(IoTAnalytics)
 
 .show operations | where StartedOn > ago(1h)
 
@@ -29,7 +29,7 @@
 // extract pkg files to C:\
 // run cmd.exe:
 
-// LightIngest.exe "Data Source=https://ingest-adxpm10774.eastus.kusto.windows.net;AAD Federated Security=True" -db:IoTAnalytics -table:SampleTable -source:"https://westuskustopublic.blob.core.windows.net/public/" -pattern:"SampleData-500-4394582f-668f-4d03-8bba-58f87a7e48a0.json" -format:json -limit:2 -cr:10.0 -dontWait:true -mappingRef:Mapping01
+// LightIngest.exe "Data Source=https://ingest-adxpm10774.northeurope.kusto.windows.net;AAD Federated Security=True" -db:IoTAnalytics -table:SampleTable -source:"https://westuskustopublic.blob.core.windows.net/public/" -pattern:"SampleData-500-4394582f-668f-4d03-8bba-58f87a7e48a0.json" -format:json -limit:2 -cr:10.0 -dontWait:true -mappingRef:Mapping01
 
 
 SampleTable

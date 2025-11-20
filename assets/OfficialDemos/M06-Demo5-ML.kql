@@ -1,4 +1,4 @@
-#connect cluster('igniteadxsource.eastus2').database('Occupancy')
+#connect cluster('igniteadxsource.northeurope2').database('Occupancy')
 
 // Python UnSupervised Learning
 //Create a cusotm UDF to run K-Means clustering using Python plugin

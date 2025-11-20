@@ -1,4 +1,4 @@
-#connect cluster('adxpm10774.eastus').database(IoTAnalytics)
+#connect cluster('adxpm10774.northeurope').database(IoTAnalytics)
 
 // https://docs.microsoft.com/en-us/azure/data-explorer/kusto/management/data-export/export-data-to-storage
 // .export
