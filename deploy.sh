@@ -46,7 +46,7 @@ function add_required_extensions() {
 }
 
 function create_resource_group() {
-    az group create --name $rgName --location "East US" --only-show-errors --output none
+    az group create --name $rgName --location "North Europe" --only-show-errors --output none
 }
 
 function deploy_azure_services() {
