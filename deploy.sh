@@ -208,14 +208,14 @@ function configure_IoT_Central_output() {
 }
 
 # Define required variables
-# randomNum=$RANDOM
-randomNum=x83477665
+randomNum=$RANDOM
+#randomNum=x83477665
 currentDate=$(date)
 tomorrow=$(date +"%Y-%m-%dT00:00:00Z" -d "$currentDate +1 days")
 #deploymentName=ADXIoTAnalyticsDeployment$randomNum
-deploymentName="${randomNum}-explorer-iot-deployment"
+deploymentName="x83477665-explorer-${randomNum}-neu-deployment"
 #rgName=ADXIoTAnalytics$randomNum
-rgName="${randomNum}-explorer-iot"
+rgName="x83477665-explorer-${randomNum}-neu"
 #rgName="${randomNum}ADXIoTAnalytics"
 principalId=$(az ad signed-in-user show --query id -o tsv)
 
