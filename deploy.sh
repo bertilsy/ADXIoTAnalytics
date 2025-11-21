@@ -215,7 +215,7 @@ tomorrow=$(date +"%Y-%m-%dT00:00:00Z" -d "$currentDate +1 days")
 #deploymentName=ADXIoTAnalyticsDeployment$randomNum
 deploymentName="x83477665-explorer-${randomNum}-neu-deployment"
 #rgName=ADXIoTAnalytics$randomNum
-rgName="x83477665-explorer-${randomNum}-neu"
+rgName="x83477665-explorer-neu"
 #rgName="${randomNum}ADXIoTAnalytics"
 principalId=$(az ad signed-in-user show --query id -o tsv)
 
