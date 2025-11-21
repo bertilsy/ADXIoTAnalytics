@@ -20,7 +20,7 @@ Open [Azure Cloud Shell](https://shell.azure.com/) and run the following command
 
 3. Get the latest version of the repository
     ```bash
-    git clone https://github.com/Azure/ADXIoTAnalytics.git
+    git clone https://github.com/bertilsy/ADXIoTAnalytics.git
     ```
 
 4. Deploy solution
